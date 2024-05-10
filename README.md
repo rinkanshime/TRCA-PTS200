@@ -1,4 +1,4 @@
-# ТРКА ПТС-200 - русифицированнаая проошивка для паяльника на базе ESP32-S2 под жала T12/TS-100
+w# ТРКА ПТС-200 - русифицированнаая проошивка для паяльника на базе ESP32-S2 под жала T12/TS-100
 
 # ТЕКУЩАЯ ВЕРСИЯ - 1.00
 
@@ -12,27 +12,6 @@
 - Переработка режима отображения "Big Numbers" - заданная температуа в верхнем левом углу, напряжение питания в верхнем правом углу, статус обозначен различными иконками
 - Восстановлена работоспособность калибровки жала 
 - Восстановлен режим управдения PID
-
-
-## TODO: 
-
-- пофиксить меню (невидимый пункт PID - после Таймер, Главный экран уже ссылается на Тип управления)
-- пофиксить текст при калибровке
-
-
-
-# Songguo PTS200 
-
-PTS-200 soldering iron firmware, forked from Eddddddddy/Songguo-PTS200. With some bugfixes and customization.
-
-- Bugfix: https://github.com/Eddddddddy/Songguo-PTS200/issues/19
-- Bugfix: https://github.com/Eddddddddy/Songguo-PTS200/issues/13
-- Always show measured temp, even at startup. Never show "000" as temp, which can be dangerous
-- I modified the large fonts on the two main screens, as I didn't like the original ones
-- Totally modified the "Big number" screen: Set temp in the top-left, input voltage in the top-right, status is shown by different icons
-- Adjusted temp calculation. Now it is much closer to the measured real temp, with TS-100 tips
-- Adjusting temp on the main screen is temporary. It won't save as Default temp
-
 
 ## Introduction
 1. PD3.0 and QC3 fast charge protocol
@@ -58,18 +37,3 @@ PTS-200 soldering iron firmware, forked from Eddddddddy/Songguo-PTS200. With som
 11. MSC firmware upgrade, flash disk mode
 <!-- 带有便携式的尖端保护盖 -->
 12. With a portable tip cap
-
-<!-- 构建方法 -->
-## Build method
-<!-- Arduino with ESP32 环境 -->
-1. Arduino with ESP32 environment
-<!-- 安装依赖库 -->
-2. Install dependent libraries: Button2, U8g2, QC3Control, ESP32AnalogRead, PID_v1, SparkFun_LIS2DH12
-<!-- 从U8G2库中替换u8g2_fonts.c文件 -->
-3. Replace the u8g2_fonts.c file from the U8G2 library
-<!-- 在Arduino 中选择Tools- USB CDC On Boot- Enable -->
-4. In Arduino, select Tools-USB CDC On Boot-Enable
-<!-- 在Arduino 中选择Tools-Upload Mode- Internal USB -->
-5. In Arduino, select Tools-Upload Mode-Internal USB
-<!-- 点击上传 -->
-6. Click Upload
