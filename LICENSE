@@ -1,0 +1,25 @@
+/*
+ * -------------------------------------------------------------------
+ * Thermal Rectal Crypto Analyzer 
+ * TRCA PTS-200 - ESP32-S2 based firmware
+ * for Pen Solider with tips T12/T100 
+ * 
+ * (C) 2024 Mark Michurin (rinkanshime)
+ * https://https://gitlab.rinkanshime.ru/instruments/pts200-rin
+ * 
+ * -------------------------------------------------------------------
+ *  License: WTFPL
+ *  DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+ * 
+ *  Everyone is permitted to copy and distribute verbatim or modified
+ *  copies of this license document, and changi ng it is allowed as long
+ *  as the name is changed.
+ *
+ *  You just DO WHAT THE FUCK YOU WANT TO.
+ *
+ * This program is free software. It comes without any warranty, to
+ * the extent permitted by applicable law. You can redistribute it
+ * and/or modify it under the terms of the Do What The Fuck You Want
+ * To Public License, Version 2, as published by Sam Hocevar. See
+ * http://www.wtfpl.net/ for more details. 
+ */
