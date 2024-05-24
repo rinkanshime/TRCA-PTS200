@@ -1,5 +1,5 @@
 // Firmware version
-#define VERSION "TRCA v.1.0" //2024 05 04
+#define VERSION "TRCA v.1.02" //2024 05 04
 #define VERSION_NUM 100
 
 #define DBG 
