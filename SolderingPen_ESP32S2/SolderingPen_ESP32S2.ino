@@ -826,17 +826,17 @@ void SetupScreen() {
       case 4: {
         InfoScreen();
       } break;
-      case 5:
+      case 5: {
         VoltageValue =
             MenuScreen(VoltageItems, sizeof(VoltageItems), VoltageValue);
         PD_Update();
-        break;
-      case 6:
+        }  break;
+      case 6: {
         QCEnable = MenuScreen(QCItems, sizeof(QCItems), QCEnable);
-        break;
-      case 7:
+       } break;
+      case 7: {
         beepEnable = MenuScreen(BuzzerItems, sizeof(BuzzerItems), beepEnable);
-        break;
+       } break;
       case 8: {
         restore_default_config = MenuScreen(DefaultItems, sizeof(DefaultItems),
                                             restore_default_config);
