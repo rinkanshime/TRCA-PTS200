@@ -1,7 +1,7 @@
 # ТРКА ПТС-200 - русифицированнаая прошивка для паяльника на базе ESP32-S2 под жала T12/TS-100
 
 
-** ТЕКУЩАЯ ВЕРСИЯ - 1.01**
+** ТЕКУЩАЯ ВЕРСИЯ - 1.02**
 
 <img width="420" alt="image" src="https://github.com/rinkanshime/TRCA-PTS200/blob/TRCA-PTS200-v1.01/docs/logo_trca.jpg">
 
