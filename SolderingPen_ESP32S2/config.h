@@ -1,12 +1,12 @@
 // Firmware version
-#define VERSION "TRCA v.1.02" //2024 05 04
-#define VERSION_NUM 100
+#define VERSION "TRCA v.1.2" //2024 05 04
+#define VERSION_NUM 102
 
-#define DBG 
+//#define DBG 
     #if defined(DBG)           
 #define MESSAGE "DEBUG_MODE"
     #else 
-#define MESSAGE "NORMAL_MODE"
+#define MESSAGE "Default"
     #endif
 
 // Type of MOSFET
