@@ -21,6 +21,6 @@
 - 1.1 - восстановление регулирования PID, фикс отображения длинных пунктов меню
 - 1.0 - базовый перевод на русский
 
-<img width="420" alt="image" src="https://github.com/rinkanshime/TRCA-PTS200/blob/TRCA-PTS200-v1.2/docs/pts200meme.jpg">
+<img width="420" alt="image" src="https://github.com/rinkanshime/TRCA-PTS200/blob/TRCA-PTS200-v.1.2/docs/pts200meme.jpg">
 
 _ТРКА = акроним для "ТермоРектальный КриптоАнализатор", хорошо известное в странах СНГ альтернативное название как для самого паяльника, так и для целой ветви прикладной криптографии. Ближайшая иностранная терминология со схожим смыслом - "Advanced Password Removal Toolkit run as root"_ 
