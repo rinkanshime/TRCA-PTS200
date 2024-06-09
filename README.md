@@ -3,7 +3,7 @@
 
 ** ТЕКУЩАЯ ВЕРСИЯ - 1.2**
 
-<img width="420" alt="image" src="https://github.com/rinkanshime/TRCA-PTS200/blob/TRCA-PTS200-v1.2/docs/logo_trca.jpg">
+<img width="420" alt="image" src="https://github.com/rinkanshime/TRCA-PTS200/blob/TRCA-PTS200-v.1.2/docs/logo_trca.jpg">
 
 ## Изменения относительно ветки Eddy:
 
